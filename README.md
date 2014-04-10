@@ -28,7 +28,31 @@ make
 
 #### Windows
 
-TODO
+##### 3rd Party libraries
+
+Setting up 3rd party libraries in windows environment is inconvenient, because every library uses their own conventions. 
+For this reason a prefer to install all 3rd party libraries in fixed directory structure with location is given by system wide environment variable 3RDPARTY_ROOT.
+
+For example if one sets environment variable 3RDPARTY_ROOT=C:\3rdParty. Then I would expect following directory structure (not limited to).
+
+C:\3rdParty\
+  VC10_Win32
+  VC10_x64
+  VC11_Win32
+    include
+    lib
+  VC11_x64
+    include
+    lib
+
+So I simply install different 3rd party libraries under VC<VC version>_<Arch> using default unix style installation.
+
+I regularly build some 3rd party libraries these are available in 
+
+
+##### Visual Studio 2012 build using QtC-VC11.sln solution.
+
+
 
 ## Getting Started
 
