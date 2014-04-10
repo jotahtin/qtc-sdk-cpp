@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libraries", "Libraries", "{A434D09A-2564-45FB-9A07-EED316E74CB7}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "QtC_Cpp", "Windows\VC11\Libraries\QtC_Cpp\QtC_Cpp.vcxproj", "{62264B35-14AB-4D67-AAA7-F89BB246F69F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{62264B35-14AB-4D67-AAA7-F89BB246F69F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{62264B35-14AB-4D67-AAA7-F89BB246F69F}.Debug|Win32.Build.0 = Debug|Win32
+		{62264B35-14AB-4D67-AAA7-F89BB246F69F}.Debug|Win32.Deploy.0 = Debug|Win32
+		{62264B35-14AB-4D67-AAA7-F89BB246F69F}.Release|Win32.ActiveCfg = Release|Win32
+		{62264B35-14AB-4D67-AAA7-F89BB246F69F}.Release|Win32.Build.0 = Release|Win32
+		{62264B35-14AB-4D67-AAA7-F89BB246F69F}.Release|Win32.Deploy.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{62264B35-14AB-4D67-AAA7-F89BB246F69F} = {A434D09A-2564-45FB-9A07-EED316E74CB7}
+	EndGlobalSection
+EndGlobal
